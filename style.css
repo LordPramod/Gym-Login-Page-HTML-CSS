@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    margin:0%;
+    padding: 0%;
+    background: url('/img/gym.jpg');
+    /* width: auto;
+    height: 100%; */
+    font-family:'Baloo 2', cursive;
+    /* height: 20000px; */
+}
+.left{
+    /* border: 2px solid red; */
+    display: inline-block;
+    color: white;
+    position:absolute;
+    left: 34px;
+    top: 20px;
+
+    
+}
+.right{
+
+    display: inline-block;
+    /* border: 2px solid rgb(21, 184, 189); */
+    position: absolute;
+    right: 34px;
+    top:10px;
+    color: antiquewhite;
+}
+.center{
+    /* border: 2px solid rgb(177, 174, 174); */
+    display: block;
+    margin:20px auto;
+    color: whitesmoke;
+    width: 50%;
+
+}
+.navbar {
+    display: inline-block;
+ 
+}
+.navbar li{
+    display: inline-block;
+    text-decoration: none;
+
+}
+.navbar li a {
+    font-size: 20px;
+    list-style: none;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 30px 25px;
+}
+.navbar  li a:hover{
+    text-decoration: underline;
+    color: grey;
+    
+}
+.left img {
+    width:50px;
+    filter: invert(100%);
+
+    
+}
+.left div{
+    font-size: 20px;
+    
+}
+.btn{
+    margin: 0 9px;
+    color: aliceblue;
+    background-color: black;
+    padding: 4px 7px;
+    border: 3px solid grey;
+    border-radius: 40px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family:'Baloo 2', cursive;
+}
+.btn:hover{
+    background-color: rgb(68, 68, 68);
+}
+.container{
+    border: 3px solid grey;
+    color: whitesmoke;
+    text-align: center;
+    width: 33%;
+    border-radius: 10px;
+    margin-top: 50px;
+    position: absolute;
+    top: 90px;
+    right:30px;
+    background-color: rgb(40, 39, 41);
+}
+.group input{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    padding: 8px 2px;
+    border: 3px solid grey;
+    border-radius: 40px;
+    width: 25rem;
+    display: inline-block;
+    background-color: rgba(249, 249, 249, 0.817)
+}
+.group label{
+    font-size: 20px;
+    position:absolute;
+    left:110px;
+    margin-top: 10px;
+
+    
+}
+.logo{
+   font-family: sans-serif;
+}
+.checkbox button {
+    padding: 6px 45px;
+    background-color: black;
+    border: 3px solid grey;
+    border-radius: 10px;
+    color: aliceblue;
+    margin-bottom: 20px;
+
+}
+.checkbox button:hover{
+    /* color: grey; */
+    background-color: grey;
+
+}
+.header{
+    position: sticky;
+    top: 0;
+}
